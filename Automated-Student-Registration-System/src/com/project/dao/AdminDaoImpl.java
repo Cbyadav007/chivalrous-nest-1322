@@ -85,15 +85,16 @@ public class AdminDaoImpl implements AdminDao {
 	}
 
 	@Override
-	public String updateFees(String coname) {
+	public String updateFees(String coname,int nf) {
 		// TODO Auto-generated method stub
 		String msg = null;
 		
 		try(Connection conn = DBUtil.provideConnection())
 		{
-			PreparedStatement ps = conn.prepareStatement("update course set fees = fees+10000 where cname = ?");
+			PreparedStatement ps = conn.prepareStatement("update course set fees = ? where cname = ?");
 			
-			ps.setString(1, coname);
+			ps.setInt(1, nf);
+			ps.setString(2, coname);
 			
 			int x = ps.executeUpdate();
 			if(x>0)

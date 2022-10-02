@@ -17,7 +17,7 @@ public interface AdminDao {
 	
 	public String addCourse(int cid, String cname, String duration, double fees, int totalSeat, int remainingSeat);
 	
-	public String updateFees(String cname);
+	public String updateFees(String cname, int nf);
 	
 	public String deleteCourse(int cid) throws CourseException;
 	

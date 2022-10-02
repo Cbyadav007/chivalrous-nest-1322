@@ -64,7 +64,7 @@ public class StudentDaoImpl implements StudentDao{
 				String pass = rs.getString("password");
 				int m = rs.getInt("marks");
 			Student	student = new Student(r,n,user,pass,m);
-			msg = "Login Successfull!";
+			msg = "Student Login Successfull!";
 			}
 			else
 			{
