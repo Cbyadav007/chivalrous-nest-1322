@@ -14,9 +14,11 @@ public class UpdateFeesUserCase {
 		
 		System.out.println("Enter Course name to Update Fees");
 		String cname = sc.next();
+		System.out.println("Enter new Fees to Update");
+		int nf = sc.nextInt();
 		
 		AdminDao admin = new AdminDaoImpl();
-		String msg = admin.updateFees(cname);
+		String msg = admin.updateFees(cname,nf);
 		System.out.println(msg);
 		
 	}
