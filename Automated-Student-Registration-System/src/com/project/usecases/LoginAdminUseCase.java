@@ -21,8 +21,11 @@ public class LoginAdminUseCase {
 		
 		try {
 			Admin ad = adao.loginAdmin(username,password);
+			System.out.println("==============================================");
+			System.out.println("Admin Login Successfull!");
 			System.out.println("Welcome "+ ad.getUsername());
 			System.out.println("Select what you want to do");
+			System.out.println("==============================================");
 			System.out.println("1. Add new Course");
 			System.out.println("2. Update Fees of Course");
 			System.out.println("3. Delete Course");
@@ -31,6 +34,7 @@ public class LoginAdminUseCase {
 			System.out.println("6. Allocate Student in a Batch under a Course");
 			System.out.println("7. Update total Seats of a Batch");
 			System.out.println("8. View the Student of Every Batch");
+			System.out.println("===============================================");
 			
 			int achoice = sc.nextInt();
 			

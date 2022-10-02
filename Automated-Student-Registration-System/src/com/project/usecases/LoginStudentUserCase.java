@@ -14,7 +14,7 @@ public class LoginStudentUserCase {
 
 		Scanner sc = new Scanner(System.in);
 		
-		System.out.println("sTUDENT LOGIN");
+		System.out.println("STUDENT LOGIN");
 		System.out.println("==============================");
 		
 		System.out.println("Enter email for login");

@@ -32,8 +32,9 @@ public class AddCourseUserCase {
 	
 	AdminDao admin = new AdminDaoImpl();
 	String msg = admin.addCourse(cid, cname, duration, fees, totalSeat,remainingSeat);
+	System.out.println("===============================");
 	System.out.println(msg);
-	
+	System.out.println("===============================");
 	
 		
 	}
