@@ -1,5 +1,5 @@
 # chivalrous-nest-1322
-# Project Name : Automated-Student-Registrstion-System
+# Project Name : Automated-Student-Registration-System
 # Tech-Stack : Java, Mysql, JDBC
 
 Problem Description:
