@@ -31,3 +31,10 @@
 - Register himself in a course with a username and password (email should be the username)
 - can update this details.
 - can see all the available course list and their seat availability. 
+
+## Live Demo
+
+https://drive.google.com/file/d/1fmMedhhLcs7rA3cWqqXUOTnQk3WPQmwK/view?usp=share_link
+
+## View Code
+https://github.com/Cbyadav007/chivalrous-nest-1322
